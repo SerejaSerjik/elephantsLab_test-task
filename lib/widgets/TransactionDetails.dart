@@ -405,6 +405,7 @@ class TransactionDetails extends StatelessWidget {
               ),
             ),
             Divider(),
+            SizedBox(height: 100,) //что бы при скролле вверх не пропадал последний элемент за кнопкой
           ],
         ),
         Positioned(
