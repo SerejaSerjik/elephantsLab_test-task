@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CurrencyInfo extends StatelessWidget {
-  final Color color;
+  final Image image;
   final String title;
   final String ticker;
   final double exchangeRate;
@@ -10,7 +10,7 @@ class CurrencyInfo extends StatelessWidget {
 
   CurrencyInfo({
     Key key,
-    @required this.color,
+    @required this.image,
     @required this.title,
     @required this.ticker,
     @required this.exchangeRate,
@@ -34,8 +34,9 @@ class CurrencyInfo extends StatelessWidget {
                     height: 45,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: color,
+                      // color: color,
                     ),
+                    child: image,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(left: 15),

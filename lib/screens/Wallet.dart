@@ -119,7 +119,7 @@ class Wallet extends StatelessWidget {
                         child: Column(
                           children: <Widget>[
                             CurrencyInfo(
-                              color: Color.fromRGBO(248, 155, 43, 1),
+                              image: Image.asset('assets/images/bitcoin.png'),
                               title: "Bitcoin",
                               ticker: "BTC",
                               exchangeRate: 0.0232,
@@ -127,7 +127,7 @@ class Wallet extends StatelessWidget {
                               usdAmount: 32232,
                             ),
                             CurrencyInfo(
-                              color: Color.fromRGBO(98, 104, 143, 1),
+                              image: Image.asset('assets/images/ethereum.png'),
                               title: "Ethereum",
                               ticker: "ETH",
                               exchangeRate: 0.0232,
@@ -135,7 +135,7 @@ class Wallet extends StatelessWidget {
                               usdAmount: 32232,
                             ),
                             CurrencyInfo(
-                              color: Color.fromRGBO(35, 41, 47, 1),
+                              image: Image.asset('assets/images/ripple.png'),
                               title: "Ripple",
                               ticker: "XRP",
                               exchangeRate: 0.0232,
